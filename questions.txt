@@ -1,0 +1,100 @@
+Basic Level
+
+1.Addition of Two Numbers
+Input two single-digit numbers and display their sum.
+
+2.Subtraction of Two Numbers
+Input two numbers and display the difference.
+
+3.Multiplication & Division
+Multiply two numbers and display result.
+Divide two numbers and show quotient and remainder.
+
+4.Even or Odd
+Input a number and display “EVEN” or “ODD”.
+
+5.Compare Two Numbers
+Input two numbers and display the larger one.
+
+
+🔠 Decision & Menu-based Programs
+
+1.Simple Menu Program
+Display a menu:
+Addition
+Subtraction
+Exit
+Perform based on user choice.
+
+2.Traffic Light Simulation
+Input a number (1–Red, 2–Yellow, 3–Green).
+Display “STOP”, “WAIT”, or “GO”.
+
+3.Grade Calculation
+Input marks and display grade (A/B/C/Fail).
+
+4.Positive / Negative / Zero Check
+
+5.Square or Cube (User Choice)
+Choose 1 for square, 2 for cube, display result.
+
+
+🔁 Loop / Series Programs
+
+1.Factorial of a Number
+Input a number and find its factorial using a loop.
+
+2.Fibonacci Series
+Display first N Fibonacci terms.
+
+3.Sum of First N Natural Numbers
+Input N and calculate 1 + 2 + … + N.
+
+4.Count of Even and Odd Numbers (1–10)
+Use a loop and counters.
+
+5.Reverse a Number
+Input a number (2-digit or 3-digit) and reverse it.
+
+
+
+🧵 String & Character Operations
+
+1.String Length
+Find the length of a string ending with ‘$’.
+
+2.String Reverse
+Reverse a given string.
+
+3.Palindrome Check
+Check if a string is palindrome or not.
+
+4.Count Vowels in a String
+
+5.Convert Lowercase to Uppercase
+
+⚙️ Advanced / Procedure-based
+
+1.Use of Procedures
+Write a program to perform addition, subtraction, and display result using separate procedures.
+
+2.Use of Macros
+Define a macro to display a message or perform arithmetic.
+
+3.Find Largest among Three Numbers (using conditional jumps)
+
+4.Sort Array (Ascending Order)
+
+5.Display Multiplication Table for a Number
+
+💾 Bonus (Common in Viva or Tests)
+
+Explain the use of INT 21H functions (01h, 02h, 09h).
+
+Difference between BYTE and WORD.
+
+What is the use of LEA, MOV, CMP, and JMP instructions?
+
+Explain the structure of a MASM program (.MODEL, .DATA, .CODE).
+
+Convert any high-level algorithm (like finding factorial) into assembly logic.
