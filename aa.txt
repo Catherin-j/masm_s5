@@ -1,0 +1,102 @@
+Basic Array Programs
+
+1.Read and Display Elements of an Array
+2.Find Sum of Array Elements ✅ (you already did this)
+3.Find Average of Array Elements ✅
+4.Find Maximum Element in Array
+Find Minimum Element in Array
+5.Count Even and Odd Numbers in Array
+6.Search for an Element in Array (Linear Search)
+7.Reverse the Array Elements
+
+
+📌 Intermediate Array Programs
+
+1.Sort Array in Ascending Order (Bubble Sort)
+2.Sort Array in Descending Order
+3.Copy One Array into Another
+4.Remove Duplicate Elements from Array
+5.Count Frequency of Each Element in Array
+6.Merge Two Arrays into One
+7.Find Second Largest Element in Array
+8.Rotate Array Elements to the Right or Left by 1 Position
+
+📌 Bonus / Advanced Array Challenges
+
+1.Insert a New Element at Given Position
+2.Delete an Element at Given Position
+3.Check if the Array is Palindrome
+4.Count Positive and Negative Numbers (if allowing signed input).
+
+ I. INT 21h (DOS Services)
+
+1Display a string (AH = 09h)
+
+2.Read a character from keyboard (AH = 01h)
+
+3.Print a character (AH = 02h)
+
+4.Read a string (AH = 0Ah)
+
+5.Read system date (AH = 2Ah)
+
+6.Read system time (AH = 2Ch)
+
+7.Read a character without echo (AH = 08h)
+
+8.Beep sound using DL = 07h
+
+9.Terminate program (AH = 4Ch)
+
+🧠 INT 12h (Memory Services)
+
+10.Read and display total conventional memory in KB.
+
+
+📺 INT 10h (Video Services)
+11.Clear the screen (AH = 00h)
+12Set video mode (AH = 00h)
+13Change text color (AH = 09h)
+14.Move cursor to specific location (AH = 02h)
+15Read cursor position (AH = 03h)
+
+⌨️ INT 16h (Keyboard Services)
+16.Read character and scan code (AH = 00h)
+17.Check keyboard buffer status (AH = 01h)
+
+🕒 INT 2Ah / 2Ch (Date and Time)
+
+19.Read and display current date (AH = 2Ah)
+20.Read and display current time (AH = 2Ch)
+21.Make a simple digital clock (continuous time update)
+
+💽 INT 13h (Disk Services)
+
+22.Reset disk system (AH = 00h)
+👉 Resets the disk system, clears errors.
+23.Read disk status (AH = 01h)
+👉 Checks if there’s any disk error and returns status in AH.
+24Read sectors from disk (AH = 02h)
+👉 Read 1 or more sectors from disk (CH = cylinder, DH = head, CL = sector, AL = sector count, DL = drive).
+25Write sectors to disk (AH = 03h) (careful — modifies disk).
+26.Verify disk sectors (AH = 04h)
+27.Get drive parameters (AH = 08h)
+👉 Returns drive geometry (cylinders, heads, sectors/track).
+
+
+🧮 MASM Math/Algorithm Questions (2-digit inputs)
+
+3. Check if a 2-digit number is Palindrome
+4. Factorial of a 2-digit number (n!)
+
+6. Check Armstrong number (2 or 3 digits)
+7. Check Perfect number
+8. Check Prime number
+9. Generate multiplication table of a 2-digit number
+10. Find factorial sum of digits and check Strong number
+14. Sum of first n natural numbers
+15. Sum of even and odd digits separately
+16. Find largest and smallest digit in a 2-digit number
+17. Display all prime numbers up to n (n ≤ 50)
+19. Display factors of a 2-digit number
+20. Check if a 2-digit number is Automorphic
